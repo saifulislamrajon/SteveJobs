@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.saiful.stevejobs.Main2Activity">
+
+    <!--<include-->
+        <!--android:id="@+id/tol_bar"-->
+        <!--layout="@layout/tool_bar" />-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="My favorite things..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="I’m as proud of..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button2"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="Your work is..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button3"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="Have the courage to..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button4"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="I think if you do..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button5"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="Sometimes when you..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button6"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button6"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="When you’re a carpenter..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button7"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="That’s been one of..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button8"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button8"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="Quality is more important..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button9"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button9"
+        android:layout_margin="1.5dp"
+        android:background="@color/colorQuote"
+        android:onClick="one"
+        android:text="Being the richest..."
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="   Text Size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:text="This Quotes Size  :"
+        android:textStyle="bold" />
+</RelativeLayout>
